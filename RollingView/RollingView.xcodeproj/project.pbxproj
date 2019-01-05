@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A413BD3021E0B2BC000C734A /* RollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A413BD2E21E0B2BC000C734A /* RollingView.m */; };
+		A413BD3121E0B2BC000C734A /* RollingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A413BD2F21E0B2BC000C734A /* RollingView.xib */; };
+		A413BD3721E0B3DF000C734A /* CustomXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = A413BD3421E0B3DE000C734A /* CustomXibView.m */; };
+		A413BD3821E0B3DF000C734A /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A413BD3621E0B3DE000C734A /* UIView+Constraint.m */; };
 		A49D333321A91C07004A2B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D333221A91C07004A2B31 /* AppDelegate.m */; };
 		A49D333621A91C07004A2B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D333521A91C07004A2B31 /* ViewController.m */; };
 		A49D333921A91C07004A2B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49D333721A91C07004A2B31 /* Main.storyboard */; };
@@ -15,8 +19,6 @@
 		A49D334121A91C09004A2B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D334021A91C09004A2B31 /* main.m */; };
 		A49D334B21A91C09004A2B31 /* RollingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D334A21A91C09004A2B31 /* RollingViewTests.m */; };
 		A49D335621A91C09004A2B31 /* RollingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D335521A91C09004A2B31 /* RollingViewUITests.m */; };
-		A49D336521A92412004A2B31 /* RollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D336421A92412004A2B31 /* RollingView.m */; };
-		A49D336721A9244D004A2B31 /* RollingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49D336621A9244D004A2B31 /* RollingView.xib */; };
 		A49D336A21A96138004A2B31 /* SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D336921A96138004A2B31 /* SampleView.m */; };
 		A49D336C21A96143004A2B31 /* SampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49D336B21A96143004A2B31 /* SampleView.xib */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A413BD2D21E0B2BC000C734A /* RollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingView.h; sourceTree = "<group>"; };
+		A413BD2E21E0B2BC000C734A /* RollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingView.m; sourceTree = "<group>"; };
+		A413BD2F21E0B2BC000C734A /* RollingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RollingView.xib; sourceTree = "<group>"; };
+		A413BD3321E0B3DE000C734A /* CustomXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomXibView.h; sourceTree = "<group>"; };
+		A413BD3421E0B3DE000C734A /* CustomXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomXibView.m; sourceTree = "<group>"; };
+		A413BD3521E0B3DE000C734A /* UIView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraint.h"; sourceTree = "<group>"; };
+		A413BD3621E0B3DE000C734A /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
 		A49D332E21A91C07004A2B31 /* RollingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49D333121A91C07004A2B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A49D333221A91C07004A2B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,9 +64,6 @@
 		A49D335121A91C09004A2B31 /* RollingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49D335521A91C09004A2B31 /* RollingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollingViewUITests.m; sourceTree = "<group>"; };
 		A49D335721A91C09004A2B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A49D336321A92412004A2B31 /* RollingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RollingView.h; sourceTree = "<group>"; };
-		A49D336421A92412004A2B31 /* RollingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollingView.m; sourceTree = "<group>"; };
-		A49D336621A9244D004A2B31 /* RollingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RollingView.xib; sourceTree = "<group>"; };
 		A49D336821A96138004A2B31 /* SampleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleView.h; sourceTree = "<group>"; };
 		A49D336921A96138004A2B31 /* SampleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleView.m; sourceTree = "<group>"; };
 		A49D336B21A96143004A2B31 /* SampleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleView.xib; sourceTree = "<group>"; };
@@ -88,6 +94,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A413BD2C21E0B2BC000C734A /* Rolling */ = {
+			isa = PBXGroup;
+			children = (
+				A413BD2D21E0B2BC000C734A /* RollingView.h */,
+				A413BD2E21E0B2BC000C734A /* RollingView.m */,
+				A413BD2F21E0B2BC000C734A /* RollingView.xib */,
+			);
+			path = Rolling;
+			sourceTree = "<group>";
+		};
+		A413BD3221E0B3DE000C734A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A413BD3321E0B3DE000C734A /* CustomXibView.h */,
+				A413BD3421E0B3DE000C734A /* CustomXibView.m */,
+				A413BD3521E0B3DE000C734A /* UIView+Constraint.h */,
+				A413BD3621E0B3DE000C734A /* UIView+Constraint.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		A49D332521A91C07004A2B31 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +138,8 @@
 		A49D333021A91C07004A2B31 /* RollingView */ = {
 			isa = PBXGroup;
 			children = (
+				A413BD3221E0B3DE000C734A /* Base */,
+				A413BD2C21E0B2BC000C734A /* Rolling */,
 				A49D333121A91C07004A2B31 /* AppDelegate.h */,
 				A49D333221A91C07004A2B31 /* AppDelegate.m */,
 				A49D333421A91C07004A2B31 /* ViewController.h */,
@@ -120,9 +149,6 @@
 				A49D333C21A91C09004A2B31 /* LaunchScreen.storyboard */,
 				A49D333F21A91C09004A2B31 /* Info.plist */,
 				A49D334021A91C09004A2B31 /* main.m */,
-				A49D336321A92412004A2B31 /* RollingView.h */,
-				A49D336421A92412004A2B31 /* RollingView.m */,
-				A49D336621A9244D004A2B31 /* RollingView.xib */,
 				A49D336821A96138004A2B31 /* SampleView.h */,
 				A49D336921A96138004A2B31 /* SampleView.m */,
 				A49D336B21A96143004A2B31 /* SampleView.xib */,
@@ -251,10 +277,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A413BD3121E0B2BC000C734A /* RollingView.xib in Resources */,
 				A49D333E21A91C09004A2B31 /* LaunchScreen.storyboard in Resources */,
 				A49D336C21A96143004A2B31 /* SampleView.xib in Resources */,
 				A49D333B21A91C09004A2B31 /* Assets.xcassets in Resources */,
-				A49D336721A9244D004A2B31 /* RollingView.xib in Resources */,
 				A49D333921A91C07004A2B31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49D333621A91C07004A2B31 /* ViewController.m in Sources */,
+				A413BD3821E0B3DF000C734A /* UIView+Constraint.m in Sources */,
 				A49D336A21A96138004A2B31 /* SampleView.m in Sources */,
 				A49D334121A91C09004A2B31 /* main.m in Sources */,
-				A49D336521A92412004A2B31 /* RollingView.m in Sources */,
+				A413BD3721E0B3DF000C734A /* CustomXibView.m in Sources */,
+				A413BD3021E0B2BC000C734A /* RollingView.m in Sources */,
 				A49D333321A91C07004A2B31 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
