@@ -106,40 +106,13 @@
 -(void)addContentViewWithConstraint:(UIView *)contentView identifier:(NSString *)identifier {
     contentView.translatesAutoresizingMaskIntoConstraints = NO;
     [view addSubview:contentView];
-
-    NSLayoutConstraint *viewWidth =  [NSLayoutConstraint constraintWithItem:contentView
-                                                                  attribute:NSLayoutAttributeWidth
-                                                                  relatedBy:NSLayoutRelationEqual
-                                                                     toItem:view
-                                                                  attribute:NSLayoutAttributeWidth
-                                                                 multiplier:1
-                                                                   constant:0];
     
-    NSLayoutConstraint *viewHeight =  [NSLayoutConstraint constraintWithItem:contentView
-                                                                   attribute:NSLayoutAttributeHeight
-                                                                   relatedBy:NSLayoutRelationEqual
-                                                                      toItem:view
-                                                                   attribute:NSLayoutAttributeHeight
-                                                                  multiplier:1
-                                                                    constant:0];
-    
-    NSLayoutConstraint *centerX = [NSLayoutConstraint constraintWithItem:contentView
-                                                               attribute:NSLayoutAttributeCenterX
-                                                               relatedBy:NSLayoutRelationEqual
-                                                                  toItem:view
-                                                               attribute:NSLayoutAttributeCenterX
-                                                              multiplier:1
-                                                                constant:0];
-    
-    NSLayoutConstraint *top =  [NSLayoutConstraint constraintWithItem:contentView
-                                                            attribute:NSLayoutAttributeTop
-                                                            relatedBy:NSLayoutRelationEqual
-                                                               toItem:view
-                                                            attribute:NSLayoutAttributeTop
-                                                           multiplier:1
-                                                             constant:0];
+    [[contentView.widthAnchor constraintEqualToAnchor:view.widthAnchor constant:0] setActive:YES];
+    [[contentView.heightAnchor constraintEqualToAnchor:view.heightAnchor constant:0] setActive:YES];
+    [[contentView.centerXAnchor constraintEqualToAnchor:view.centerXAnchor constant:0] setActive:YES];
+    NSLayoutConstraint *top = [contentView.topAnchor constraintEqualToAnchor:view.topAnchor constant:0];
     [top setIdentifier:identifier];
-    [view addConstraints:[NSArray arrayWithObjects:viewWidth,viewHeight,top,centerX,nil]];
+    [top setActive:YES];
 }
 
 
